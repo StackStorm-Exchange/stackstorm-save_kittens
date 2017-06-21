@@ -1,7 +1,7 @@
 ---
 name: image_solver
 description: Decode or Encode PNG image.
-runner_type: "run-python"
+runner_type: "python-script"
 entry_point: "image_solver.py"
 enabled: true
 parameters:

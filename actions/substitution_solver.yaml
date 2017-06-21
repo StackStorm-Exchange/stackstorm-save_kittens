@@ -1,7 +1,7 @@
 ---
 name: substitution_solver
 description: Encode or decode subsitition puzzle
-runner_type: "run-python"
+runner_type: "python-script"
 entry_point: "substitution_solver.py"
 enabled: true
 parameters:

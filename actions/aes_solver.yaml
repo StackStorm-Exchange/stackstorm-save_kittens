@@ -1,7 +1,7 @@
 ---
 name: aes_solver
 description: Decrypt or Encrypt AES.
-runner_type: "run-python"
+runner_type: "python-script"
 entry_point: "aes_solver.py"
 enabled: true
 parameters:

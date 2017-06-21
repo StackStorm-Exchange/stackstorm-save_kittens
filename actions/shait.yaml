@@ -1,7 +1,7 @@
 ---
 name: shait
 description: SHA Mesage and Twitter handle for solving puzzles.
-runner_type: "run-python"
+runner_type: "python-script"
 entry_point: "shait.py"
 enabled: true
 parameters:
