@@ -2,7 +2,7 @@ from __future__ import print_function
 
 from Crypto.Hash import SHA
 
-from st2actions.runners.pythonrunner import Action
+from st2common.runners.base_action import Action
 
 __all__ = [
     'ShaIt'
