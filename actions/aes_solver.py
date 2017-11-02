@@ -4,7 +4,7 @@ import base64
 from Crypto.Cipher import AES
 from Crypto.Hash import MD5
 
-from st2actions.runners.pythonrunner import Action
+from st2common.runners.base_action import Action
 
 __all__ = [
     'AESDecrypt'
